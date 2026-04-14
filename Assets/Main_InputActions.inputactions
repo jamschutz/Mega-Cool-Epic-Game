@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Main_InputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "9d756b3a-f4a5-403c-aaaf-2ced4ac30a85",
+            "actions": [
+                {
+                    "name": "Spawn",
+                    "type": "Button",
+                    "id": "9290756b-af4f-49d8-a122-a75e6432b224",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "92d5ca2d-b519-433b-a231-fa57ee6a8b59",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
