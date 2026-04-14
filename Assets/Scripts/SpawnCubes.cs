@@ -10,7 +10,7 @@ public class SpawnCubes : MonoBehaviour
     public void OnSpawn(InputAction.CallbackContext context)
     {
         if(context.started) {
-            for(int i = 0; i < 1000; i++) {
+            for(int i = 0; i < 100; i++) {
                 Vector3 pos = new(0, Random.Range(1, 2), Random.Range(-0.5f, 1.5f));
                 GameObject.Instantiate(prefab, pos, Quaternion.identity);
             }
